@@ -76,7 +76,7 @@ Los siguientes valores son estimaciones de referencia y deben actualizarse segú
 
 | Componente           | Cantidad | Conexión o función        |  Costo estimado |
 | -------------------- | -------: | ------------------------- | --------------: |
-| Arduino UNO R3       |        1 | Controlador principal     |     $12.000 ARS |
+| Arduino UNO          |        1 | Controlador principal     |     $12.000 ARS |
 | Sensor PIR HC-SR501  |        1 | Salida digital al pin 2   |      $3.000 ARS |
 | Servomotor SG90      |        1 | Señal de control al pin 9 |      $4.500 ARS |
 | LED rojo y LED verde |        2 | Pines digitales 4 y 3     |      $1.000 ARS |
@@ -91,7 +91,7 @@ Los siguientes valores son estimaciones de referencia y deben actualizarse segú
 - **LED rojo:** conectado al pin digital 4 mediante una resistencia limitadora de corriente.
 - **LED verde:** conectado al pin digital 3 mediante una resistencia limitadora de corriente.
 - **Buzzer:** conectado al pin digital 5 y a GND, respetando las especificaciones del componente.
-- **Arduino UNO R3:** recibe y procesa las señales del sensor y controla los dispositivos de salida.
+- **Arduino UNO :** recibe y procesa las señales del sensor y controla los dispositivos de salida.
 
 **Importante:** cada LED debe contar con su resistencia limitadora. La alimentación del servomotor debe ser adecuada para su consumo y todas las tierras deben compartir una referencia común. Se deben verificar las conexiones antes de energizar el circuito.
 
@@ -175,7 +175,7 @@ Insertar en esta sección una imagen del diagrama de flujo que represente la sec
 - Adquisición de los componentes disponibles para el montaje.
 - Armado del circuito sobre una protoboard.
 - Construcción de la maqueta de la barrera vehicular.
-- Carga del programa en el Arduino UNO R3.
+- Carga del programa en el Arduino UNO .
 - Pruebas de funcionamiento con los componentes físicos.
 - Verificación del sensor, el servomotor, los LED y el buzzer.
 - Corrección de errores detectados durante las pruebas.
@@ -303,7 +303,7 @@ En conclusión, AutoAccess constituye una base para comprender el funcionamiento
 
 ## 14. Recursos y herramientas utilizadas
 
-- **Arduino UNO R3:** plataforma de desarrollo electrónico.
+- **Arduino UNO :** plataforma de desarrollo electrónico.
 - **Arduino IDE:** entorno para escribir, compilar y cargar el programa.
 - **Wokwi:** plataforma de simulación de circuitos electrónicos.
 - **GitHub:** alojamiento del repositorio y control de versiones.
@@ -312,7 +312,7 @@ En conclusión, AutoAccess constituye una base para comprender el funcionamiento
 
 ---
 
-**Proyecto Integrador de Automatización con Arduino UNO R3**
+**Proyecto Integrador de Automatización con Arduino UNO **
 
 **Equipo:** Los Techies de San Isidro
 
